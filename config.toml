@@ -10,8 +10,12 @@ mouse = false
 [editor.lsp]
 display-inlay-hints = true
 
-[editor.whitespace]
-render = "all"
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+newline = "none"
+nbsp = "none"
+tabpad = "all"
 
 [editor.whitespace.characters]
 space = "·"
